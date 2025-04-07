@@ -61,17 +61,18 @@ Submitted data is displayed below the form in a tabular format
 
 Folder Structure
 
+
 src/
 │
 ├── components/
-│   ├── common
-│   |── feature
+│   ├── common/
+│   ├── feature/
 │   ├── layout/
-|   |       ├──footer.jsx
-|   |       ├──header.jsx
-|   ├── route/
-|           ├──PrivateRoute.jsx
-|
+│   │   ├── footer.jsx
+│   │   └── header.jsx
+│   └── route/
+│       └── PrivateRoute.jsx
+│
 ├── pages/
 │   ├── Home.jsx
 │   ├── Login.jsx
@@ -80,14 +81,14 @@ src/
 │
 ├── redux/
 │   ├── store.js
-│   ├── slices/
-|           ├──authentication.js
-|           ├──contact.js
+│   └── slices/
+│       ├── authentication.js
+│       └── contact.js
 │
-│
-├── App.jsx
-└── index.css
+├── App.jsx  
+├── index.css  
 └── main.jsx
+
 
 
 
@@ -95,26 +96,20 @@ Setup Instructions
 
 
 1. Clone the Repository
-bash
-Copy
-Edit
+
 git clone https://github.com/singhaman09/ShopSizzle.git
 cd ShopSizzle
 
 
 
 2. Install Dependencies
-bash
-Copy
-Edit
+
 npm install
 
 
 
 3. Start the Development Server
-bash
-Copy
-Edit
+
 npm run dev
 The application will be available at http://localhost:5173 (or your configured port).
 
