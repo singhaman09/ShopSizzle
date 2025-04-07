@@ -1,5 +1,4 @@
 import { useDispatch } from "react-redux";
-import { useNavigate } from "react-router-dom";
 import { logout } from "../redux/slices/authentication";
 import Header from "../components/layout/header";
 import Footer from "../components/layout/footer";
@@ -8,8 +7,6 @@ import { toast } from "react-toastify";
 
 export default function Dashboard() {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
-
   const handleLogout = () => {
     dispatch(logout());
     toast.success("Logged out successfully!");
