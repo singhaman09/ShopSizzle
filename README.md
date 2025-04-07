@@ -59,38 +59,6 @@ A success toast is shown
 Submitted data is displayed below the form in a tabular format
 
 
-Folder Structure
-
-
-src/
-│
-├── components/
-│   ├── common/
-│   ├── feature/
-│   ├── layout/
-│   │   ├── footer.jsx
-│   │   └── header.jsx
-│   └── route/
-│       └── PrivateRoute.jsx
-│
-├── pages/
-│   ├── Home.jsx
-│   ├── Login.jsx
-│   ├── Dashboard.jsx
-│   └── ContactUs.jsx
-│
-├── redux/
-│   ├── store.js
-│   └── slices/
-│       ├── authentication.js
-│       └── contact.js
-│
-├── App.jsx  
-├── index.css  
-└── main.jsx
-
-
-
 
 Setup Instructions
 
