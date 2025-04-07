@@ -98,8 +98,8 @@ Setup Instructions
 bash
 Copy
 Edit
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/singhaman09/ShopSizzle.git
+cd ShopSizzle
 
 
 
